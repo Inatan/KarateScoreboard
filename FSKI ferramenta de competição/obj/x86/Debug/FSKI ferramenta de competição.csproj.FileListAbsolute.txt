@@ -1,0 +1,36 @@
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.exe
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.pdb
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.FSKI_Principal.resources
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Properties.Resources.resources
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csproj.GenerateResource.Cache
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.exe
+c:\users\inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.pdb
+C:\Users\Inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csprojResolveAssemblyReference.cache
+C:\Users\Inatan\Documents\Visual Studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKata.resources
+C:\Users\Inatan\Documents\Visual Studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKumite.resources
+C:\Users\Inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Hikiwake.resources
+C:\Users\Inatan\documents\visual studio 2010\Projects\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.EndMatchForm.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.exe
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.pdb
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csprojResolveAssemblyReference.cache
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.FSKI_Principal.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.EndMatchForm.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Hikiwake.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKata.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKumite.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Properties.Resources.resources
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csproj.GenerateResource.Cache
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.exe
+C:\Users\Inatan\Desktop\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.pdb
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.exe
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.pdb
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.exe
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\bin\Debug\FSKI ferramenta de competição.pdb
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csprojResolveAssemblyReference.cache
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.FSKI_Principal.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.EndMatchForm.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Hikiwake.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKata.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.PlacarKumite.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI_ferramenta_de_competição.Properties.Resources.resources
+E:\placar FSKI\FSKI ferramenta de competição\FSKI ferramenta de competição\obj\x86\Debug\FSKI ferramenta de competição.csproj.GenerateResource.Cache

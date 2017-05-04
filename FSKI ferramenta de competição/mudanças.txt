@@ -1,0 +1,9 @@
+azul e vermelho
+Kata - botão para cada um para mostrar vencedor
+	sem notas, entre dois competidores
+
+Kumite - sem mubobi 
+	Match - agora valores do combobox são os tempos de 1, 1:30, 2, 2:30 e 3 minutos
+	acaba sempre em 6
+	
+	
