@@ -1,4 +1,4 @@
-# KarateScoreboard
+# Karate Scoreboard
 ## 🖥 About the project?
 Scoreboard of karate championship.
 
