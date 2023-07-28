@@ -30,249 +30,210 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlacarKata));
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxAkaName = new System.Windows.Forms.TextBox();
-            this.textBoxAkaAssociation = new System.Windows.Forms.TextBox();
-            this.labelWinner = new System.Windows.Forms.Label();
+            this.textBoxName = new System.Windows.Forms.TextBox();
             this.buttonReset = new System.Windows.Forms.Button();
+            this.buttonCalculate = new System.Windows.Forms.Button();
             this.pictureBoxFSKI = new System.Windows.Forms.PictureBox();
-            this.textBoxAoAssociation = new System.Windows.Forms.TextBox();
-            this.textBoxAoName = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxAssociation = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.labelNameAka = new System.Windows.Forms.Label();
-            this.panelAka = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.buttonAkaWin = new System.Windows.Forms.Button();
-            this.buttonAoWin = new System.Windows.Forms.Button();
+            this.pictureBoxCEEBK = new System.Windows.Forms.PictureBox();
+            this.textBoxNota1 = new System.Windows.Forms.TextBox();
+            this.textBoxNota2 = new System.Windows.Forms.TextBox();
+            this.textBoxNota3 = new System.Windows.Forms.TextBox();
+            this.textBoxNota4 = new System.Windows.Forms.TextBox();
+            this.textBoxNota5 = new System.Windows.Forms.TextBox();
+            this.labelNotaFinal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFSKI)).BeginInit();
-            this.panelAka.SuspendLayout();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCEEBK)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.Red;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label1.Location = new System.Drawing.Point(23, 38);
+            this.label1.Location = new System.Drawing.Point(109, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(541, 20);
+            this.label1.Size = new System.Drawing.Size(549, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Name";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // textBoxName
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(29, 141);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(541, 20);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Association";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBoxAkaName
-            // 
-            this.textBoxAkaName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAkaName.BackColor = System.Drawing.Color.Red;
-            this.textBoxAkaName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxAkaName.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAkaName.ForeColor = System.Drawing.Color.White;
-            this.textBoxAkaName.Location = new System.Drawing.Point(29, 61);
-            this.textBoxAkaName.Name = "textBoxAkaName";
-            this.textBoxAkaName.Size = new System.Drawing.Size(541, 65);
-            this.textBoxAkaName.TabIndex = 9;
-            this.textBoxAkaName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAkaName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAkaName_KeyPress);
-            // 
-            // textBoxAkaAssociation
-            // 
-            this.textBoxAkaAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAkaAssociation.BackColor = System.Drawing.Color.Red;
-            this.textBoxAkaAssociation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxAkaAssociation.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAkaAssociation.ForeColor = System.Drawing.Color.White;
-            this.textBoxAkaAssociation.Location = new System.Drawing.Point(29, 164);
-            this.textBoxAkaAssociation.Name = "textBoxAkaAssociation";
-            this.textBoxAkaAssociation.Size = new System.Drawing.Size(541, 65);
-            this.textBoxAkaAssociation.TabIndex = 10;
-            this.textBoxAkaAssociation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAkaAssociation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAkaAssociation_KeyPress);
-            // 
-            // labelWinner
-            // 
-            this.labelWinner.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelWinner.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.labelWinner.Font = new System.Drawing.Font("Agency FB", 100.25F, System.Drawing.FontStyle.Bold);
-            this.labelWinner.ForeColor = System.Drawing.Color.White;
-            this.labelWinner.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelWinner.Location = new System.Drawing.Point(20, 367);
-            this.labelWinner.Name = "labelWinner";
-            this.labelWinner.Size = new System.Drawing.Size(1309, 178);
-            this.labelWinner.TabIndex = 16;
-            this.labelWinner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textBoxName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxName.BackColor = System.Drawing.Color.White;
+            this.textBoxName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxName.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxName.ForeColor = System.Drawing.Color.Black;
+            this.textBoxName.Location = new System.Drawing.Point(109, 27);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(549, 65);
+            this.textBoxName.TabIndex = 9;
+            this.textBoxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxName_KeyPress);
             // 
             // buttonReset
             // 
             this.buttonReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonReset.Location = new System.Drawing.Point(634, 630);
+            this.buttonReset.Location = new System.Drawing.Point(1245, 629);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(95, 20);
-            this.buttonReset.TabIndex = 26;
+            this.buttonReset.TabIndex = 18;
             this.buttonReset.Text = "Reset";
             this.buttonReset.UseVisualStyleBackColor = true;
             this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
+            // buttonCalculate
+            // 
+            this.buttonCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonCalculate.Location = new System.Drawing.Point(12, 626);
+            this.buttonCalculate.Name = "buttonCalculate";
+            this.buttonCalculate.Size = new System.Drawing.Size(75, 23);
+            this.buttonCalculate.TabIndex = 17;
+            this.buttonCalculate.Text = "Calculate";
+            this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
+            // 
             // pictureBoxFSKI
             // 
-            this.pictureBoxFSKI.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.FSKI;
-            this.pictureBoxFSKI.Location = new System.Drawing.Point(593, 1);
+            this.pictureBoxFSKI.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.FSK;
+            this.pictureBoxFSKI.Location = new System.Drawing.Point(0, 1);
             this.pictureBoxFSKI.Name = "pictureBoxFSKI";
-            this.pictureBoxFSKI.Size = new System.Drawing.Size(179, 132);
+            this.pictureBoxFSKI.Size = new System.Drawing.Size(103, 123);
             this.pictureBoxFSKI.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxFSKI.TabIndex = 1;
             this.pictureBoxFSKI.TabStop = false;
             // 
-            // textBoxAoAssociation
+            // textBoxAssociation
             // 
-            this.textBoxAoAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAoAssociation.BackColor = System.Drawing.Color.Navy;
-            this.textBoxAoAssociation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxAoAssociation.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAoAssociation.ForeColor = System.Drawing.Color.White;
-            this.textBoxAoAssociation.Location = new System.Drawing.Point(110, 164);
-            this.textBoxAoAssociation.Name = "textBoxAoAssociation";
-            this.textBoxAoAssociation.Size = new System.Drawing.Size(549, 65);
-            this.textBoxAoAssociation.TabIndex = 12;
-            this.textBoxAoAssociation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAoAssociation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAoAssociation_KeyPress);
-            // 
-            // textBoxAoName
-            // 
-            this.textBoxAoName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAoName.BackColor = System.Drawing.Color.Navy;
-            this.textBoxAoName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxAoName.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAoName.ForeColor = System.Drawing.Color.White;
-            this.textBoxAoName.Location = new System.Drawing.Point(110, 61);
-            this.textBoxAoName.Name = "textBoxAoName";
-            this.textBoxAoName.Size = new System.Drawing.Size(549, 65);
-            this.textBoxAoName.TabIndex = 11;
-            this.textBoxAoName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAoName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAoName_KeyPress);
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.BackColor = System.Drawing.Color.Navy;
-            this.label3.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(110, 141);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(549, 20);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Association";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textBoxAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAssociation.BackColor = System.Drawing.Color.White;
+            this.textBoxAssociation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxAssociation.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAssociation.ForeColor = System.Drawing.Color.Black;
+            this.textBoxAssociation.Location = new System.Drawing.Point(690, 27);
+            this.textBoxAssociation.Name = "textBoxAssociation";
+            this.textBoxAssociation.Size = new System.Drawing.Size(549, 65);
+            this.textBoxAssociation.TabIndex = 11;
+            this.textBoxAssociation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxAssociation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAssociation_KeyPress);
             // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.BackColor = System.Drawing.Color.Navy;
+            this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label4.Location = new System.Drawing.Point(110, 38);
+            this.label4.Location = new System.Drawing.Point(690, 4);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(549, 20);
             this.label4.TabIndex = 19;
-            this.label4.Text = "Name";
+            this.label4.Text = "Association";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelNameAka
+            // pictureBoxCEEBK
             // 
-            this.labelNameAka.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.labelNameAka.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNameAka.Location = new System.Drawing.Point(211, 0);
-            this.labelNameAka.Name = "labelNameAka";
-            this.labelNameAka.Size = new System.Drawing.Size(0, 20);
-            this.labelNameAka.TabIndex = 7;
-            this.labelNameAka.Text = "Name";
-            this.labelNameAka.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBoxCEEBK.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.CEEBK;
+            this.pictureBoxCEEBK.Location = new System.Drawing.Point(1245, 1);
+            this.pictureBoxCEEBK.Name = "pictureBoxCEEBK";
+            this.pictureBoxCEEBK.Size = new System.Drawing.Size(103, 114);
+            this.pictureBoxCEEBK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCEEBK.TabIndex = 28;
+            this.pictureBoxCEEBK.TabStop = false;
             // 
-            // panelAka
+            // textBoxNota1
             // 
-            this.panelAka.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelAka.BackColor = System.Drawing.Color.Red;
-            this.panelAka.Controls.Add(this.labelNameAka);
-            this.panelAka.Controls.Add(this.label1);
-            this.panelAka.Controls.Add(this.textBoxAkaName);
-            this.panelAka.Controls.Add(this.textBoxAkaAssociation);
-            this.panelAka.Controls.Add(this.label2);
-            this.panelAka.Location = new System.Drawing.Point(-13, -12);
-            this.panelAka.Name = "panelAka";
-            this.panelAka.Size = new System.Drawing.Size(686, 264);
-            this.panelAka.TabIndex = 23;
+            this.textBoxNota1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNota1.BackColor = System.Drawing.Color.White;
+            this.textBoxNota1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxNota1.Font = new System.Drawing.Font("Agency FB", 123.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNota1.ForeColor = System.Drawing.Color.Black;
+            this.textBoxNota1.Location = new System.Drawing.Point(12, 139);
+            this.textBoxNota1.Name = "textBoxNota1";
+            this.textBoxNota1.Size = new System.Drawing.Size(246, 205);
+            this.textBoxNota1.TabIndex = 12;
+            this.textBoxNota1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNota1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNota1_KeyPress);
             // 
-            // panel1
+            // textBoxNota2
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.Navy;
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBoxAoAssociation);
-            this.panel1.Controls.Add(this.textBoxAoName);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(670, -12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(686, 264);
-            this.panel1.TabIndex = 24;
+            this.textBoxNota2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNota2.BackColor = System.Drawing.Color.White;
+            this.textBoxNota2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxNota2.Font = new System.Drawing.Font("Agency FB", 123.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNota2.ForeColor = System.Drawing.Color.Black;
+            this.textBoxNota2.Location = new System.Drawing.Point(282, 139);
+            this.textBoxNota2.Name = "textBoxNota2";
+            this.textBoxNota2.Size = new System.Drawing.Size(246, 205);
+            this.textBoxNota2.TabIndex = 13;
+            this.textBoxNota2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNota2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNota2_KeyPress);
             // 
-            // label5
+            // textBoxNota3
             // 
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label5.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(211, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Name";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textBoxNota3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNota3.BackColor = System.Drawing.Color.White;
+            this.textBoxNota3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxNota3.Font = new System.Drawing.Font("Agency FB", 123.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNota3.ForeColor = System.Drawing.Color.Black;
+            this.textBoxNota3.Location = new System.Drawing.Point(552, 139);
+            this.textBoxNota3.Name = "textBoxNota3";
+            this.textBoxNota3.Size = new System.Drawing.Size(246, 205);
+            this.textBoxNota3.TabIndex = 14;
+            this.textBoxNota3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNota3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNota3_KeyPress);
             // 
-            // buttonAkaWin
+            // textBoxNota4
             // 
-            this.buttonAkaWin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonAkaWin.Location = new System.Drawing.Point(12, 628);
-            this.buttonAkaWin.Name = "buttonAkaWin";
-            this.buttonAkaWin.Size = new System.Drawing.Size(75, 23);
-            this.buttonAkaWin.TabIndex = 25;
-            this.buttonAkaWin.Text = "Aka Winner";
-            this.buttonAkaWin.UseVisualStyleBackColor = true;
-            this.buttonAkaWin.Click += new System.EventHandler(this.buttonAkaWin_Click);
+            this.textBoxNota4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNota4.BackColor = System.Drawing.Color.White;
+            this.textBoxNota4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxNota4.Font = new System.Drawing.Font("Agency FB", 123.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNota4.ForeColor = System.Drawing.Color.Black;
+            this.textBoxNota4.Location = new System.Drawing.Point(822, 139);
+            this.textBoxNota4.Name = "textBoxNota4";
+            this.textBoxNota4.Size = new System.Drawing.Size(246, 205);
+            this.textBoxNota4.TabIndex = 15;
+            this.textBoxNota4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNota4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNota4_KeyPress);
             // 
-            // buttonAoWin
+            // textBoxNota5
             // 
-            this.buttonAoWin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAoWin.Location = new System.Drawing.Point(1273, 629);
-            this.buttonAoWin.Name = "buttonAoWin";
-            this.buttonAoWin.Size = new System.Drawing.Size(75, 23);
-            this.buttonAoWin.TabIndex = 27;
-            this.buttonAoWin.Text = "Ao Winner";
-            this.buttonAoWin.UseVisualStyleBackColor = true;
-            this.buttonAoWin.Click += new System.EventHandler(this.buttonAoWin_Click);
+            this.textBoxNota5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNota5.BackColor = System.Drawing.Color.White;
+            this.textBoxNota5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textBoxNota5.Font = new System.Drawing.Font("Agency FB", 123.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNota5.ForeColor = System.Drawing.Color.Black;
+            this.textBoxNota5.Location = new System.Drawing.Point(1094, 139);
+            this.textBoxNota5.Name = "textBoxNota5";
+            this.textBoxNota5.Size = new System.Drawing.Size(246, 205);
+            this.textBoxNota5.TabIndex = 16;
+            this.textBoxNota5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNota5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNota5_KeyPress);
+            // 
+            // labelNotaFinal
+            // 
+            this.labelNotaFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelNotaFinal.BackColor = System.Drawing.Color.White;
+            this.labelNotaFinal.Font = new System.Drawing.Font("Agency FB", 164.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNotaFinal.ForeColor = System.Drawing.Color.Black;
+            this.labelNotaFinal.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.labelNotaFinal.Location = new System.Drawing.Point(12, 388);
+            this.labelNotaFinal.Name = "labelNotaFinal";
+            this.labelNotaFinal.Size = new System.Drawing.Size(1328, 220);
+            this.labelNotaFinal.TabIndex = 34;
+            this.labelNotaFinal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PlacarKata
             // 
@@ -280,24 +241,29 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1354, 661);
-            this.Controls.Add(this.buttonAoWin);
-            this.Controls.Add(this.buttonAkaWin);
+            this.Controls.Add(this.labelNotaFinal);
+            this.Controls.Add(this.textBoxNota5);
+            this.Controls.Add(this.textBoxNota4);
+            this.Controls.Add(this.textBoxNota3);
+            this.Controls.Add(this.textBoxNota2);
+            this.Controls.Add(this.textBoxNota1);
+            this.Controls.Add(this.pictureBoxCEEBK);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBoxName);
+            this.Controls.Add(this.buttonCalculate);
+            this.Controls.Add(this.textBoxAssociation);
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.pictureBoxFSKI);
-            this.Controls.Add(this.labelWinner);
-            this.Controls.Add(this.panelAka);
-            this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Name = "PlacarKata";
             this.Text = "Placar Kata";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlacarKata_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFSKI)).EndInit();
-            this.panelAka.ResumeLayout(false);
-            this.panelAka.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCEEBK)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -305,20 +271,17 @@
 
         private System.Windows.Forms.PictureBox pictureBoxFSKI;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBoxAkaName;
-        private System.Windows.Forms.TextBox textBoxAkaAssociation;
-        private System.Windows.Forms.Label labelWinner;
+        private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.Button buttonReset;
-        private System.Windows.Forms.TextBox textBoxAoAssociation;
-        private System.Windows.Forms.TextBox textBoxAoName;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonCalculate;
+        private System.Windows.Forms.TextBox textBoxAssociation;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label labelNameAka;
-        private System.Windows.Forms.Panel panelAka;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button buttonAkaWin;
-        private System.Windows.Forms.Button buttonAoWin;
+        private System.Windows.Forms.PictureBox pictureBoxCEEBK;
+        private System.Windows.Forms.TextBox textBoxNota1;
+        private System.Windows.Forms.TextBox textBoxNota2;
+        private System.Windows.Forms.TextBox textBoxNota3;
+        private System.Windows.Forms.TextBox textBoxNota4;
+        private System.Windows.Forms.TextBox textBoxNota5;
+        private System.Windows.Forms.Label labelNotaFinal;
     }
 }

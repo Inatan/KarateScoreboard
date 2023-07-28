@@ -15,7 +15,7 @@ namespace FSKI_ferramenta_de_competição
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FSKI_Principal());
+            Application.Run(new FSK_Principal());
         }
     }
 }

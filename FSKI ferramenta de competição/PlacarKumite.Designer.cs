@@ -77,8 +77,10 @@
             this.panelAka = new System.Windows.Forms.Panel();
             this.labelAkaAtenaiBehavior = new System.Windows.Forms.Label();
             this.labelAkaPoints = new System.Windows.Forms.Label();
+            this.pictureBoxCEEBK = new System.Windows.Forms.PictureBox();
             this.pictureBoxFSKI = new System.Windows.Forms.PictureBox();
             this.panelAka.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCEEBK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFSKI)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,8 +96,8 @@
             // 
             // labelTimer
             // 
-            this.labelTimer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTimer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelTimer.BackColor = System.Drawing.Color.White;
             this.labelTimer.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.labelTimer.Font = new System.Drawing.Font("Agency FB", 140.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -144,8 +146,8 @@
             // 
             // labelT
             // 
-            this.labelT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelT.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelT.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.labelT.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -171,8 +173,8 @@
             // 
             // textBoxNameAo
             // 
-            this.textBoxNameAo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNameAo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxNameAo.BackColor = System.Drawing.Color.Navy;
             this.textBoxNameAo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxNameAo.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -197,8 +199,8 @@
             // 
             // textBoxAoAssociation
             // 
-            this.textBoxAoAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAoAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxAoAssociation.BackColor = System.Drawing.Color.Navy;
             this.textBoxAoAssociation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxAoAssociation.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,8 +232,8 @@
             this.labelSJ.Name = "labelSJ";
             this.labelSJ.Size = new System.Drawing.Size(68, 42);
             this.labelSJ.TabIndex = 47;
-            this.labelSJ.Text = "JOGAI";
-            this.labelSJ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelSJ.Text = "C1";
+            this.labelSJ.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // buttonAoJogaiDown
             // 
@@ -277,8 +279,8 @@
             this.labelShiroAB.Name = "labelShiroAB";
             this.labelShiroAB.Size = new System.Drawing.Size(80, 43);
             this.labelShiroAB.TabIndex = 43;
-            this.labelShiroAB.Text = "ATENAI";
-            this.labelShiroAB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelShiroAB.Text = "C2";
+            this.labelShiroAB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // buttonAoAtenaiBehaviorDown
             // 
@@ -409,8 +411,8 @@
             // 
             // textBoxNameAka
             // 
-            this.textBoxNameAka.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBoxNameAka.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.textBoxNameAka.BackColor = System.Drawing.Color.Red;
             this.textBoxNameAka.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxNameAka.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -434,8 +436,8 @@
             // 
             // textBoxAkaAssociation
             // 
-            this.textBoxAkaAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBoxAkaAssociation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.textBoxAkaAssociation.BackColor = System.Drawing.Color.Red;
             this.textBoxAkaAssociation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxAkaAssociation.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -538,9 +540,10 @@
             this.labelAkaAB.Font = new System.Drawing.Font("Agency FB", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAkaAB.Location = new System.Drawing.Point(374, 379);
             this.labelAkaAB.Name = "labelAkaAB";
+            this.labelAkaAB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.labelAkaAB.Size = new System.Drawing.Size(83, 43);
             this.labelAkaAB.TabIndex = 25;
-            this.labelAkaAB.Text = "ATENAI";
+            this.labelAkaAB.Text = "C2";
             this.labelAkaAB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelAkaJogai
@@ -582,9 +585,10 @@
             this.labelAJ.Font = new System.Drawing.Font("Agency FB", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAJ.Location = new System.Drawing.Point(391, 273);
             this.labelAJ.Name = "labelAJ";
+            this.labelAJ.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.labelAJ.Size = new System.Drawing.Size(68, 42);
             this.labelAJ.TabIndex = 29;
-            this.labelAJ.Text = "JOGAI";
+            this.labelAJ.Text = "C1";
             this.labelAJ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelAkaName
@@ -600,9 +604,9 @@
             // 
             // panelAka
             // 
-            this.panelAka.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAka.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelAka.BackColor = System.Drawing.Color.Red;
             this.panelAka.Controls.Add(this.buttonAkaIponnDown);
             this.panelAka.Controls.Add(this.labelAkaName);
@@ -654,14 +658,27 @@
             this.labelAkaPoints.Text = "0";
             this.labelAkaPoints.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBoxCEEBK
+            // 
+            this.pictureBoxCEEBK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxCEEBK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxCEEBK.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCEEBK.Image")));
+            this.pictureBoxCEEBK.Location = new System.Drawing.Point(537, 474);
+            this.pictureBoxCEEBK.Name = "pictureBoxCEEBK";
+            this.pictureBoxCEEBK.Size = new System.Drawing.Size(277, 255);
+            this.pictureBoxCEEBK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCEEBK.TabIndex = 48;
+            this.pictureBoxCEEBK.TabStop = false;
+            // 
             // pictureBoxFSKI
             // 
-            this.pictureBoxFSKI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxFSKI.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.FSKI;
+            this.pictureBoxFSKI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxFSKI.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFSKI.Image")));
             this.pictureBoxFSKI.Location = new System.Drawing.Point(537, 214);
             this.pictureBoxFSKI.Name = "pictureBoxFSKI";
-            this.pictureBoxFSKI.Size = new System.Drawing.Size(277, 515);
+            this.pictureBoxFSKI.Size = new System.Drawing.Size(277, 261);
             this.pictureBoxFSKI.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxFSKI.TabIndex = 0;
             this.pictureBoxFSKI.TabStop = false;
@@ -672,6 +689,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(1354, 729);
+            this.Controls.Add(this.pictureBoxCEEBK);
             this.Controls.Add(this.labelSJ);
             this.Controls.Add(this.buttonAoWazariUp);
             this.Controls.Add(this.labelAOPoints);
@@ -705,6 +723,7 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlacarKumite_KeyDown);
             this.panelAka.ResumeLayout(false);
             this.panelAka.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCEEBK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFSKI)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -761,5 +780,6 @@
         private System.Windows.Forms.Panel panelAka;
         private System.Windows.Forms.Label labelAkaAtenaiBehavior;
         private System.Windows.Forms.Label labelAkaPoints;
+        private System.Windows.Forms.PictureBox pictureBoxCEEBK;
     }
 }

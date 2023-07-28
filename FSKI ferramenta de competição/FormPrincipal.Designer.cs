@@ -1,6 +1,6 @@
 ﻿namespace FSKI_ferramenta_de_competição
 {
-    partial class FSKI_Principal
+    partial class FSK_Principal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FSKI_Principal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FSK_Principal));
             this.buttonExit = new System.Windows.Forms.Button();
             this.buttonKumite = new System.Windows.Forms.Button();
             this.buttonKata = new System.Windows.Forms.Button();
@@ -68,7 +68,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.FSKI;
+            this.pictureBox1.Image = global::FSKI_ferramenta_de_competição.Properties.Resources.FSK;
             this.pictureBox1.Location = new System.Drawing.Point(12, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(280, 198);
@@ -76,7 +76,7 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // FSKI_Principal
+            // FSK_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,9 +88,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FSKI_Principal";
+            this.Name = "FSK_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FSKI - Ferramenta de Competição";
+            this.Text = "FSK - Placar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
