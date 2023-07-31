@@ -42,7 +42,7 @@
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(280, 32);
             this.buttonExit.TabIndex = 0;
-            this.buttonExit.Text = "Exit";
+            this.buttonExit.Text = "Fechar";
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
