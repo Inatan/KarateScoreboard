@@ -129,6 +129,9 @@
     <Content Include="CEEBK.jpg" />
     <Content Include="FSK.ico" />
     <Content Include="FSK.jpg" />
+    <Content Include="Siren_Noise.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -122,7 +122,7 @@
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(83, 23);
             this.buttonReset.TabIndex = 28;
-            this.buttonReset.Text = "Reset";
+            this.buttonReset.Text = "Resetar";
             this.buttonReset.UseVisualStyleBackColor = true;
             this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
@@ -156,7 +156,7 @@
             this.labelT.Name = "labelT";
             this.labelT.Size = new System.Drawing.Size(198, 20);
             this.labelT.TabIndex = 7;
-            this.labelT.Text = "TIME";
+            this.labelT.Text = "TEMPO";
             this.labelT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelNameAo
@@ -168,7 +168,7 @@
             this.labelNameAo.Name = "labelNameAo";
             this.labelNameAo.Size = new System.Drawing.Size(37, 20);
             this.labelNameAo.TabIndex = 8;
-            this.labelNameAo.Text = "Name";
+            this.labelNameAo.Text = "Nome";
             this.labelNameAo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBoxNameAo
@@ -183,7 +183,6 @@
             this.textBoxNameAo.Size = new System.Drawing.Size(454, 65);
             this.textBoxNameAo.TabIndex = 1;
             this.textBoxNameAo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxNameAo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNameao_KeyPress);
             // 
             // labelAoAssociation
             // 
@@ -194,7 +193,7 @@
             this.labelAoAssociation.Name = "labelAoAssociation";
             this.labelAoAssociation.Size = new System.Drawing.Size(62, 20);
             this.labelAoAssociation.TabIndex = 10;
-            this.labelAoAssociation.Text = "Association";
+            this.labelAoAssociation.Text = "Equipe";
             this.labelAoAssociation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBoxAoAssociation
@@ -209,7 +208,6 @@
             this.textBoxAoAssociation.Size = new System.Drawing.Size(454, 65);
             this.textBoxAoAssociation.TabIndex = 2;
             this.textBoxAoAssociation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAoAssociation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxaoAssociation_KeyPress);
             // 
             // labelAOPoints
             // 
@@ -394,7 +392,7 @@
             this.buttonStartPause.Name = "buttonStartPause";
             this.buttonStartPause.Size = new System.Drawing.Size(84, 26);
             this.buttonStartPause.TabIndex = 10;
-            this.buttonStartPause.Text = "Start";
+            this.buttonStartPause.Text = "Iniciar";
             this.buttonStartPause.UseVisualStyleBackColor = true;
             this.buttonStartPause.Click += new System.EventHandler(this.buttonStartPause_Click);
             // 
@@ -421,7 +419,6 @@
             this.textBoxNameAka.Size = new System.Drawing.Size(454, 65);
             this.textBoxNameAka.TabIndex = 23;
             this.textBoxNameAka.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxNameAka.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNameAka_KeyPress);
             // 
             // labelAkaAssociation
             // 
@@ -431,7 +428,7 @@
             this.labelAkaAssociation.Name = "labelAkaAssociation";
             this.labelAkaAssociation.Size = new System.Drawing.Size(62, 20);
             this.labelAkaAssociation.TabIndex = 9;
-            this.labelAkaAssociation.Text = "Association";
+            this.labelAkaAssociation.Text = "Equipe";
             this.labelAkaAssociation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBoxAkaAssociation
@@ -446,7 +443,6 @@
             this.textBoxAkaAssociation.Size = new System.Drawing.Size(454, 65);
             this.textBoxAkaAssociation.TabIndex = 24;
             this.textBoxAkaAssociation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxAkaAssociation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAkaAssociation_KeyPress);
             // 
             // labelAkaIponn
             // 
@@ -599,7 +595,7 @@
             this.labelAkaName.Name = "labelAkaName";
             this.labelAkaName.Size = new System.Drawing.Size(37, 20);
             this.labelAkaName.TabIndex = 48;
-            this.labelAkaName.Text = "Name";
+            this.labelAkaName.Text = "Nome";
             this.labelAkaName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelAka

@@ -2,9 +2,9 @@
 
 namespace FSKI_ferramenta_de_competição
 {
-    public partial class EndMatchForm : Form
+    public partial class FormEndOfMatch : Form
     {
-        public EndMatchForm()
+        public FormEndOfMatch()
         {
             InitializeComponent();
         }

@@ -58,7 +58,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(549, 20);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Name";
+            this.label1.Text = "Nome";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBoxName
@@ -83,7 +83,7 @@
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(95, 20);
             this.buttonReset.TabIndex = 18;
-            this.buttonReset.Text = "Reset";
+            this.buttonReset.Text = "Resetar";
             this.buttonReset.UseVisualStyleBackColor = true;
             this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
@@ -94,7 +94,7 @@
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(75, 23);
             this.buttonCalculate.TabIndex = 17;
-            this.buttonCalculate.Text = "Calculate";
+            this.buttonCalculate.Text = "Calcular";
             this.buttonCalculate.UseVisualStyleBackColor = true;
             this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
             // 
@@ -134,7 +134,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(549, 20);
             this.label4.TabIndex = 19;
-            this.label4.Text = "Association";
+            this.label4.Text = "Equipe";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBoxCEEBK

@@ -32,18 +32,12 @@ namespace FSKI_ferramenta_de_competição
             timerKumite.Stop();
             akaEndMatch = false;
             aoEndMatch = false;
-            
-           /* this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;*/
         }
 
         private void apenasLetras(KeyPressEventArgs e)
         {
             if (!(e.KeyChar == (char)Keys.Back) && !char.IsLetter(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
-            {
                 e.Handled = true;
-            }
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
@@ -103,9 +97,9 @@ namespace FSKI_ferramenta_de_competição
             ao = new CompetidorKumite();
             akaEndMatch = false;
             aoEndMatch = false;
-            buttonStartPause.Text = "Play";
+            buttonStartPause.Text = "Iniciar";
             buttonStartPause.Enabled = true;
-            labelTimer.ForeColor = System.Drawing.Color.Black;
+            labelTimer.ForeColor = Color.Black;
         }
         
         private void PlacarKumite_sizeeventhandler(object sender, EventArgs e)
@@ -129,7 +123,7 @@ namespace FSKI_ferramenta_de_competição
         {
             if (!onPlay && textBoxNameAka.Text != "" && textBoxAkaAssociation.Text != "" && textBoxNameAo.Text != "" && textBoxAoAssociation.Text != "")
             {
-                buttonStartPause.Text = "Pause";
+                buttonStartPause.Text = "Pausar";
                 timerKumite.Start();
                 buttonReset.Enabled = false;
                 comboBoxMinutes.Enabled = false;
@@ -137,7 +131,7 @@ namespace FSKI_ferramenta_de_competição
             }
             else if (onPlay)
             {
-                buttonStartPause.Text = "Play";
+                buttonStartPause.Text = "Iniciar";
                 timerKumite.Stop();
                 buttonReset.Enabled = true;
                 comboBoxMinutes.Enabled = true;
@@ -150,7 +144,7 @@ namespace FSKI_ferramenta_de_competição
         {
             if ((minutes == 0) && (seconds == 31))
             {
-                labelTimer.ForeColor= System.Drawing.Color.Red;
+                labelTimer.ForeColor= Color.Red;
                 alarm.Play();
             }
             if ((minutes == 0) && (seconds == 29))
@@ -189,20 +183,16 @@ namespace FSKI_ferramenta_de_competição
                 comboBoxMinutes.Enabled= true;
             }
             if (alarmThread.IsAlive)
-            {
                 alarmThread.Abort();
-            }
             alarmThread = new Thread(PlayAlarmMatch);
             alarmThread.Start();
             buttonStartPause.Text = "Play";
             timerKumite.Stop();
             buttonReset.Enabled = true;
             onPlay = false;
-            EndMatchForm emf = new EndMatchForm();
+            FormEndOfMatch emf = new FormEndOfMatch();
             emf.StartPosition = FormStartPosition.CenterScreen;
-        
             emf.ShowDialog();
-
         }
 
         private void Draw()
@@ -219,39 +209,18 @@ namespace FSKI_ferramenta_de_competição
             seconds = 0;
             buttonStartPause.Text = "Play";
             buttonStartPause.Enabled = true;
-            
         }
 
         private void PlayAlarmMatch()
         {
             alarm.Play();
-            System.Threading.Thread.Sleep(5000);// 5 segundos para o alarme tocar
+            Thread.Sleep(5000);// 5 segundos para o alarme tocar
             alarm.Stop();
         }
 
         private void textBoxNameAka_KeyPress(object sender, KeyPressEventArgs e)
         {
             apenasLetras(e);
-        }
-
-        private void textBoxAkaAssociation_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            apenasLetras(e);
-            if (e.KeyChar == (char)Keys.Back && textBoxAkaAssociation.Text.Length == 0)
-            {
-                textBoxNameAka.Focus();
-                textBoxNameAka.SelectionLength = textBoxNameAka.Text.Length;
-            }
-        }
-
-        private void textBoxNameao_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
-        private void textBoxaoAssociation_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
         }
 
         private void buttonAkaIponnUp_Click(object sender, EventArgs e)
@@ -618,7 +587,6 @@ namespace FSKI_ferramenta_de_competição
                 comboBoxMinutes.SelectedIndex = 3;
             }
         }
-        
 
     }
 }

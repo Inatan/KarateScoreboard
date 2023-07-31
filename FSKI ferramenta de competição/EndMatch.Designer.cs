@@ -1,6 +1,6 @@
 ﻿namespace FSKI_ferramenta_de_competição
 {
-    partial class EndMatchForm
+    partial class FormEndOfMatch
     {
         /// <summary>
         /// Required designer variable.
@@ -36,13 +36,14 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Agency FB", 120F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-4, 60);
+            this.label1.Location = new System.Drawing.Point(150, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(902, 191);
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(557, 191);
             this.label1.TabIndex = 0;
-            this.label1.Text = "END OF MATCH!";
+            this.label1.Text = "ACABOU!";
             // 
-            // EndMatchForm
+            // FormEndOfMatch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -51,9 +52,9 @@
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "EndMatchForm";
+            this.Name = "FormEndOfMatch";
             this.ShowIcon = false;
-            this.Text = "END OF MATCH!";
+            this.Text = "Encerrado";
             this.ResumeLayout(false);
             this.PerformLayout();
 
